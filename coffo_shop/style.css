@@ -1,0 +1,334 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  margin: 0;
+  padding-bottom: 10px;
+}
+p{
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_banner{
+  background-image: url(https://themewagon.github.io/Coffo/images/banner-bg.png);
+  color: white;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.header .logo {
+  width: 19%;
+  display: inline-block;
+  margin-top: auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+.nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  width: 79%;
+  display: inline-block;
+}
+
+.nav_item {
+  display: inline-block;
+}
+.nav_item a {
+  color: white;
+  padding-top: 40.74px;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  display: block;
+}
+.nav_item a:hover {
+  background-color: red;
+}
+.active a {
+  background-color: red;
+}
+
+.hero {
+  padding-top: 90px;
+  padding-bottom: 140px;
+}
+
+.hero p {
+  margin-top: 20px;
+}
+
+.hero .buttons {
+  padding-top: 40px;
+}
+
+.button {
+  padding-top: 17.5px;
+  padding-bottom:17.5px ;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 175px;
+}
+
+.buttons .primary {
+  background-color: red;
+  color: white;
+}
+.buttons .secondary {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.buttons .secondary:hover {
+  background-color: red;
+  color: white;
+}
+
+.about_section{
+  padding-top: 100px;
+}
+
+.about_side {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+.about_section h2 {
+  font-size: 40px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.about_section h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.about_section p{
+  padding-bottom: 40px;
+}
+
+.outline {
+  border-style:solid;
+  border-width: 1px;
+  border-color: red;
+  color: red;
+}
+
+.outline:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  color: black;
+}
+
+.offer_section {
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+}
+
+.offer_section h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.offer_section .offer_card {
+  width: 300px;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: rgb(35, 35, 35);
+  border: 0;
+  margin: -2.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.offer_section .offer_card:hover {
+  background-color: red;
+}
+
+.offer_section .offer_card img{
+  width: 100%;
+  display: inline-block;
+}
+
+.offer_section .offer_card h3, .offer_card p {
+ margin: 0;
+ text-align: center;
+ padding-top: 20px;
+ font-size: 16px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.offer_section .offer_card .outline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+ max-width: 100px;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ display: block;
+ border-color: white;
+ color: white;
+}
+.offer_section .offer_card .outline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+ max-width: 100px;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ display: block;
+}
+
+.reviews_section {
+  margin-top: 100px;
+}
+
+.reviews_section h2 {
+  font-size: 40px;
+}
+
+.reviews_section img {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.reviews_section .reviews_contents{
+  width: 50%;
+  margin-right: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blog_section {
+  padding-top: 100px;
+}
+
+.blog_section h2 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.blog_section .column {
+  width: 49%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+.blog_section .column .outline {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 100px;
+}
+.blog_section .column_content {
+  border-color: black;
+  border-width: 1px;
+  width: 95%;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column_content h3, .column_content p {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.blog_section .left {
+  margin-right: 10px;
+}
+.blog_section .column .date_tag {
+ background-color: red;
+ color: white;
+ width: 80px;
+ padding: 10px;
+ text-align: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-bottom: 0;
+}
+.blog_section .column img {
+  width: 100%;
+}
+
+.social {
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer{
+  margin-top: 100px;
+}
+
+.social_contact{
+  margin-top: 40px;
+  max-width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social_contact a{
+ color: white;
+ width: 90%;
+}
+.social_contact .left{
+ margin-right: 10px;
+}
+.social_contact .right{
+ margin-left: 10px;
+}
+.social_items{
+  margin: 0;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.social_items li {
+display: inline-block;
+color: white;
+}
+
+.social li a:visited{
+  color: white;
+}
+
+footer .rights{
+  background-color: red;
+  font-size: 17px;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
